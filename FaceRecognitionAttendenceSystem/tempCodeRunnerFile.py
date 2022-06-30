@@ -1,0 +1,9 @@
+style=ttk.Style()
+        #style.theme_use("default")
+        style.configure("Treeview",
+                        background="white",
+                        foreground="black",
+                        rowheight=25,
+                        fieldbackground="white"
+                        )
+        style.map('Treeview',background=[('selected','green')])
